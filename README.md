@@ -1,3 +1,11 @@
+
+#My Notes
+1. DEPRECATION WARNING: Using positional arguments in functional tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+2. I shouldn't have passed the test when my link/controller was wrong.
+3. Also should test that a link goes to the secret path
+
 # Login Required Lab
 
 ## Objectives
