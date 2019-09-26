@@ -1,0 +1,7 @@
+
+<!-- I shouldn't have passed the test when my link/controller was wrong. -->
+
+<%= form_tag(login_path, method: "post") do %>
+  <%= text_field_tag 'name'%>
+  <%= submit_tag 'login'%>
+<% end %>
