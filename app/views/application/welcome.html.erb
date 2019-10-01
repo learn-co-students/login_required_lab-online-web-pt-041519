@@ -2,8 +2,8 @@
 
 <p><%= link_to 'take the portal', secret_path %></p>
 
-<%= form_tag ({controller: 'sessions', action: 'destroy', method: 'post'}) do %>
-  <input type=submit value='logout'>
+<%= form_tag logout_path do %>
+  <%= submit_tag "logout" %>
 <% end %>
 
 
